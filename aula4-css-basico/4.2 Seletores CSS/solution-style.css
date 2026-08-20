@@ -1,0 +1,65 @@
+* {
+	font-family: "Times New Roman", serif;
+	line-height: 1.1;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+ol {
+	width: fit-content;
+	margin: 0 auto;
+	text-align: center;
+}
+
+strong {
+	color: red;
+	font-weight: normal;
+}
+
+li:nth-child(1)::marker {
+	color: red;
+}
+
+li:nth-child(2)::marker {
+	color: black;
+}
+
+.seletor-classe {
+	color: black;
+}
+
+#seletor-id {
+	color: green;
+}
+
+li:nth-child(3)::marker {
+	color: green;
+}
+
+[draggable="true"] {
+	color: blue;
+}
+
+li:nth-child(4)::marker {
+	color: blue;
+}
+
+li:nth-child(5)::marker {
+	color: black;
+}
+
+body > p {
+	margin-top: 14px;
+	font-family: Arial, sans-serif;
+}
