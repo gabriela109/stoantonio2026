@@ -1,0 +1,23 @@
+body {
+  background-color: #eef6f5;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 32px;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: #444444;
+}
+
+.destaque {
+  color: red;
+}
+
+#principal {
+  background-color: #d7eaf7;
+  padding: 16px;
+}
